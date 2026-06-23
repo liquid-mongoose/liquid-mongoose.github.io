@@ -287,7 +287,12 @@
 
 			<section id="contact">
 				<!--Contact Form-->
-				<form name="contact" netlify>
+				<form
+					name="contact"
+					netlify
+					method="POST"
+					data-netlify-recaptcha="true"
+					data-netlify="true">
 					<div class="contact-container">
 						<h2>Contact</h2>
 						<p>
@@ -301,7 +306,10 @@
 							placeholder="Email address"
 							name="mail"
 							required />
-
+						<textarea
+							placeholder="Please leave your message here 😊"
+							name="message"
+							required></textarea>
 						<input type="submit" value="Submit" />
 					</div>
 				</form>
