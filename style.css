@@ -374,6 +374,24 @@ nav a {
 .splide__pagination__page{
     top: 2.5em;
 }
+.splide-control{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.splide-toggle{
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color: var(--tangerine-oragne);
+}
+.splide-toggle:hover{
+    color: var(--xanthous-yellow);
+}
+
 
 /*--- Modal ---*/
 .modal {
