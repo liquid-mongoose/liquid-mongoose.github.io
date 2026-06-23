@@ -405,6 +405,11 @@ nav a {
     font-size: 3em;
     margin: 0;
 }
+.modal h4 {
+    font-family: var(--subtitle-font);
+    font-size: 1.5em;
+    margin: 0;
+}
 
 .modal-close-bar .close-button {
     cursor: pointer;
@@ -491,6 +496,24 @@ nav a {
     padding: 2em;
 }
 
+.privacy-modal-style {
+    align-items: start;
+    padding: 4rem;
+    text-align: left;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+.privacy-modal-style h3{
+    margin-top: 4rem;
+}
+.privacy-modal-style p, .privacy-modal-style ul, .privacy-modal-style br {
+    margin: 0 0 0.5rem;
+}
+.privacy-modal-style li{
+    margin: 0;
+}
+
+
 /*----- About Section -----*/
 #about {
     color: var(--eerie-black);
@@ -560,7 +583,7 @@ nav a {
 
 .contact-container p {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 1em;
 }
 
@@ -638,6 +661,7 @@ footer {
     flex-direction: column;
     margin: auto;
     align-items: center;
+    text-align: center;
 }
 .licensing video{
     margin-top: 0.5em;
